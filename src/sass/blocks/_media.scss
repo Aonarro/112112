@@ -132,21 +132,39 @@
 		max-width: 575px;
 	}
 	.promo {
+		.header{
+			&__contacts {
+				a{
+					font-size: 13px;
+				}
+				button {
+					width: 112px;
+					font-size: 10px;
+				}
+
+			}
+		}
 		&__header {
-			font-size: 35px;
+			font-size: 30px;
 		}
 		&__subheader {
-			font-size: 18px;
+			margin-top: 10px;
+			font-size: 16px;
 		}
 		&__icons {
-			justify-content: space-around;
+			margin-top: 25px;
+			justify-content: center;
+			align-items: center;
 		}
 		&__icon {
+			margin: 0 10px;
 			width: 90px;
+			font-size: 13px;
 		}
 		.button {
 			&_main {
-				width: 270px;
+				margin-top: 80px;
+				width: 250px;
 				height: 40px;
 				font-size: 14px;
 			}
@@ -169,10 +187,10 @@
 	.advantages {
 		&__wrapper {
 			margin-top: 65px;
-			flex: wrap;
+			flex-wrap: wrap;
 		}
 		&__item {
-			width: 33%;
+			max-width: 100%;
 		}
 		&__subtitle {
 			margin-top: 15px;
@@ -180,26 +198,28 @@
 			font-weight: 700;
 		}
 		&__descr {
-			margin-top: 15px;
+			margin-top: 16px;
+			padding: 0 30px;
 		}
 	}
 
 	.carousel {
 		&__inner {
-			 width: 450px;
+			padding: 0 20px;
+			 width: 400px;
 			 div {
 				 img {
-					 max-width:450px;
+					 max-width: 400px;
 				 }
 			 }
 		 }
 	}
 	.catalog{
 		&__tab {
-			width: 130px;
+			width: 105px;
 			height: 30px;
 			line-height: 28px;
-			font-size: 13px;
+			font-size: 9px;
 		}
 		&__content {
 			justify-content: center;
@@ -222,12 +242,10 @@
 		}
 		&__text {
 			margin-top: 15px;
-			margin-left: 62px;
-			padding-right: 60px;
 		}
 		&__subtitle {
 			color: #0d0d0d;
-			font-size: 18px;
+			font-size: 15px;
 			font-weight: 700;
 		}
 		&__count {
@@ -237,10 +255,12 @@
 		}
 		&__descr {
 			color: #0d0d0d;
-			font-size: 16px;
+			font-size: 15px;
 			font-weight: 300;
 			margin-top: 10px;
 		}
 	}
 
 }
+
+
