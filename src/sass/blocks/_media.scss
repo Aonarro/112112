@@ -97,6 +97,9 @@
 		}
 	}
 	.advantages {
+		&__subtitle {
+			font-size: 16px;
+		}
 		&__item {
 			max-width: 180px;
 		}
@@ -213,7 +216,7 @@
 		}
 		&__subtitle {
 			margin-top: 15px;
-			font-size: 15px;
+			font-size: 14px;
 			font-weight: 700;
 		}
 		&__descr {
