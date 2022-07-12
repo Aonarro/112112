@@ -29,4 +29,21 @@
             text-decoration: underline;
         }
     }
+    &__icon {
+        &_animated {
+            animation: heartbeat 1.5s ease infinite;
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
+        &_bounce {
+            animation: bounce 1.5s infinite;
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
+        &_award {
+            animation: award 1.5s linear infinite;
+        }
+    }
 }
