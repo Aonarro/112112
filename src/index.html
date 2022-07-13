@@ -8,10 +8,11 @@
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-    <section id='up' class="promo">
+    <section id='up' class="promo animate__animated animate__fadeInDown wow" data-wow-duration="2s">
         <div class="container">
             <header class="header">
                 <a href="#" class="header__logo">
@@ -64,7 +65,7 @@
             <h2 class="title">НАШИ ПРЕИМУЩЕСТВА</h2>
             <div class="advantages__wrapper">
                 <div class="advantages__item">
-                    <img src="icons/advantages/cup.png" alt="cup" class="advantages__icon advantages__icon_award">
+                    <img src="icons/advantages/cup.png" alt="cup" class="advantages__icon advantages__icon_award animate__animated animate__rubberBand animate__infinite">
                     <div class="advantages__subtitle">
                         Делимся опытом
                     </div>
@@ -74,7 +75,7 @@
                     </div>
                 </div>
                 <div class="advantages__item">
-                    <img src="icons/advantages/heart.png" alt="heart" class="advantages__icon advantages__icon_animated">
+                    <img src="icons/advantages/heart.png" alt="heart" class="advantages__icon advantages__icon_animated animate__animated animate__heartBeat animate__infinite">
                     <div class="advantages__subtitle">
                         Заботимся о здоровье
                     </div>
@@ -84,7 +85,7 @@
                     </div>
                 </div>
                 <div class="advantages__item">
-                    <img src="icons/advantages/shoe.png" alt="shoe" class="advantages__icon advantages__icon_bounce">
+                    <img src="icons/advantages/shoe.png" alt="shoe" class="advantages__icon advantages__icon_shoe animate__animated animate__swing animate__infinite">
                     <div class="advantages__subtitle">
                         Учим бегать
                     </div>
@@ -99,7 +100,7 @@
         </div>
     </section>
 
-    <section class="consultation">
+    <section class="consultation animate__animated animate__fadeIn wow" data-wow-duration="2s" data-wow-delay="0.5s">
         <div class="container">
             <h2 class="title title_left">
                 Получите бесплатную консультацию<br>
@@ -447,7 +448,7 @@
     <section class="feed">
         <div class="container">
             <h2 class="title">отзывы клиентов</h2>
-            <div class="feed__item">
+            <div class="feed__item animate__animated animate__fadeInUp wow" data-wow-duration="2s">
                 <img src="img/feed_1.png" alt="Ирина Иванченко" class="feed__img">
                 <div class="feed__text">
                     <div class="feed__subtitle">Ирина Иванченко</div>
@@ -461,7 +462,7 @@
                     </div>
                 </div>
             </div>
-            <div class="feed__item">
+            <div class="feed__item animate__animated animate__fadeInUp wow" data-wow-duration="2s">
                 <img src="img/feed_2.png" alt="Иван Сёмочкин" class="feed__img">
                 <div class="feed__text">
                     <div class="feed__subtitle">Иван Сёмочкин</div>
@@ -473,7 +474,7 @@
                     </div>
                 </div>
             </div>
-            <div class="feed__item">
+            <div class="feed__item animate__animated animate__fadeInUp wow" data-wow-duration="2s">
                 <img src="img/feed_3.png" alt="Юлия Дашкина" class="feed__img">
                 <div class="feed__text">
                     <div class="feed__subtitle">Юлия Дашкина</div>
@@ -544,6 +545,7 @@
     <script src="js/slick.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
